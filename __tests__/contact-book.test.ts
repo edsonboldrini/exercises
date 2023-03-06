@@ -1,5 +1,5 @@
 import { describe, it } from 'vitest';
-import { findContact } from '../contact-book';
+import { findContact } from '../src/contact-book';
 
 const contactBook = [
   { name: "Ana", phone: "(27) 99503-4455" },

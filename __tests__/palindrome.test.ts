@@ -1,5 +1,5 @@
 import { describe, it } from 'vitest';
-import { isPalindrome } from '../palindrome';
+import { isPalindrome } from '../src/palindrome';
 
 describe('Test palindrome function', function () {
   it('Verify success', async ({ expect }) => {

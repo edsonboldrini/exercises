@@ -1,7 +1,7 @@
 import { describe, it } from 'vitest';
-import { isPalindrome } from '../palindrome.ts';
+import { isPalindrome } from '../palindrome';
 
-describe('Test palindrome function', function() {
+describe('Test palindrome function', function () {
   it('Verify success', async ({ expect }) => {
     const result = isPalindrome('HANNAH')
 

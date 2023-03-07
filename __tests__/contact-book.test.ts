@@ -1,7 +1,7 @@
 import { describe, it } from 'vitest';
 import { findContact } from '../src/contact-book';
 
-const contactBook = [
+const contactBook: { [key: string]: any }[] = [
   { name: "Ana", phone: "(27) 99503-4455" },
   { name: "Edson", phone: "(27) 99504-6446" },
   { name: "Enzo", phone: "(27) 99532-8558" },

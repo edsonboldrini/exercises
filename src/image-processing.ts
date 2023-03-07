@@ -34,13 +34,3 @@ export function paintBucket(matrix: string[][], newColor: string, i: number, j: 
   return recursive(matrix, currentColor, newColor, i, j)
 }
 
-const m: string[][] = [
-  ['.', '#', '#', '#', '.', '.'],
-  ['.', '#', '.', '.', '#', '.'],
-  ['.', '#', '#', '#', '.', '.'],
-  ['.', '#', '.', '.', '.', '.']
-]
-console.log(m)
-
-const newMatrix = paintBucket(m, 'O', 0, 1)
-console.log(newMatrix)

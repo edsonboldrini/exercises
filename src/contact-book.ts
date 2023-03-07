@@ -1,5 +1,5 @@
 // Basically a binary search
-export function findContact(contacts, name) {
+export function findContact(contacts: { [key: string]: any }[], name: string) {
   let leftIndex = 0;
   let rightIndex = contacts.length - 1;
 
